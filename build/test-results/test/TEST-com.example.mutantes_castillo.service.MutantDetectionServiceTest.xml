@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.mutantes_castillo.service.MutantDetectionServiceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-10-12T21:51:28" hostname="PC-FRANCO" time="0.019">
+  <properties/>
+  <testcase name="testIsMutantWithMutantDNA()" classname="com.example.mutantes_castillo.service.MutantDetectionServiceTest" time="0.011"/>
+  <testcase name="testIsMutantWithHumanDNA()" classname="com.example.mutantes_castillo.service.MutantDetectionServiceTest" time="0.005"/>
+  <system-out><![CDATA[2024-10-12T18:51:28.922-03:00  INFO 14264 --- [mutantes-castillo] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.mutantes_castillo.service.MutantDetectionServiceTest]: MutantDetectionServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-10-12T18:51:28.943-03:00  INFO 14264 --- [mutantes-castillo] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.mutantes_castillo.MutantesCastilloApplication for test class com.example.mutantes_castillo.service.MutantDetectionServiceTest
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
