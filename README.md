@@ -10,38 +10,38 @@ Esta API permite detectar secuencias de ADN mutante a través de una serie de se
 - **Método**: `POST`
 - **Descripción**: Este endpoint recibe una matriz de secuencias de ADN y determina si el ADN es mutante.
 
-#### **Ejemplo de Solicitud POST**
-
-- **Cuerpo**:
-```json
-{
-    "dna": [
-        "ATGCGA",
-        "CAGTGC",
-        "TTATGT",
-        "AGAAGG",
-        "CCCCTA",
-        "TCACTG"
-    ]
-}
-```
-
-#### Respuesta exitosa (Mutante)
-- Codigo: 200 OK
-- Cuerpo:
-```markdown
-Mutante
-```
-#### Respuesta fallida (No mutante)
-- Codigo: 403 Forbidden
-- Cuerpo:
-```markdown
-No mutante
-```
-
-Cuerpo:
-```markdown
-Mutante
-
-
+    #### **Ejemplo de Solicitud POST**
+    
+    - **Cuerpo**:
+    ```json
+    {
+        "dna": [
+            "ATGCGA",
+            "CAGTGC",
+            "TTATGT",
+            "AGAAGG",
+            "CCCCTA",
+            "TCACTG"
+        ]
+    }
+    ```
+    
+    #### Respuesta exitosa (Mutante)
+    - Codigo: 200 OK
+    - Cuerpo:
+    ```markdown
+    Mutante
+    ```
+    #### Respuesta fallida (No mutante)
+    - Codigo: 403 Forbidden
+    - Cuerpo:
+    ```markdown
+    No mutante
+    ```
+    
+    Cuerpo:
+    ```markdown
+    Mutante
+    
+    
 
