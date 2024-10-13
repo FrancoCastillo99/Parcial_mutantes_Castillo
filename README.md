@@ -28,14 +28,20 @@ Esta API permite detectar secuencias de ADN mutante a través de una serie de se
 
 #### Respuesta exitosa (Mutante)
 - Codigo: 200 OK
-- Cuerpo: Mutante
-
+- Cuerpo:
+```markdown
+Mutante
+```
 #### Respuesta fallida (No mutante)
 - Codigo: 403 Forbidden
-- Cuerpo: No mutante
-
-  
-Para código en línea:
+- Cuerpo:
 ```markdown
-Este es un ejemplo de `código en línea`.
+No mutante
+```
+
+Cuerpo:
+```markdown
+Mutante
+
+
 
