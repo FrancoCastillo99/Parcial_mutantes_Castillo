@@ -12,7 +12,7 @@ Esta API permite detectar secuencias de ADN mutante a través de una serie de se
 
 #### **Ejemplo de Solicitud POST**
 
-**body**:
+- **Cuerpo**:
 ```json
 {
     "dna": [
@@ -24,3 +24,12 @@ Esta API permite detectar secuencias de ADN mutante a través de una serie de se
         "TCACTG"
     ]
 }
+```
+
+#### Respuesta exitosa (Mutante)
+- Codigo: 200 OK
+- Cuerpo: Mutante
+
+#### Respuesta fallida (No mutante)
+- Codigo: 403 Forbidden
+- Cuerpo: No mutante
