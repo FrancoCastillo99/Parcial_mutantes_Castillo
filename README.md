@@ -39,7 +39,7 @@ Mutante
 No mutante
 ```
 
-#### Respuesta de error de validacion 
+#### Respuesta de error de validacion (Ejemplo)
 - Codigo: 400 bad request
 - Cuerpo:
 ```markdown
@@ -49,5 +49,14 @@ No mutante
 
 ```
 
+### 2. Obtener Estadísticas 
+
+- **URL**: `https://parcial-castillo-1-mutantes.onrender.com/stats`
+- **Método**: `GET`
+- **Descripción**: Este endpoint devuelve estadísticas sobre las secuencias de ADN procesadas.
+
+#### **Ejemplo de Solicitud GET**
+**URL**: 
+`https://parcial-castillo-1-mutantes.onrender.com/stats`
 
 
