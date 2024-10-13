@@ -1,6 +1,8 @@
 # Mutant Detector API
 
 Esta API permite detectar secuencias de ADN mutante a través de una serie de secuencias de ADN ingresadas. Utiliza la lógica de búsqueda de patrones en secuencias de ADN para determinar si el ADN pertenece a un mutante.
+## Render
+**URL**: `https://parcial-castillo-1-mutantes.onrender.com`
 
 ## Endpoints
 
