@@ -33,3 +33,9 @@ Esta API permite detectar secuencias de ADN mutante a través de una serie de se
 #### Respuesta fallida (No mutante)
 - Codigo: 403 Forbidden
 - Cuerpo: No mutante
+
+  
+Para código en línea:
+```markdown
+Este es un ejemplo de `código en línea`.
+
