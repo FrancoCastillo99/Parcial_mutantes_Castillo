@@ -59,4 +59,17 @@ No mutante
 **URL**: 
 `https://parcial-castillo-1-mutantes.onrender.com/stats`
 
+#### Respuesta exitosa 
+- Codigo: 200 OK
+- Cuerpo:
+```
+{
+    "countMutantDna": 10,
+    "countHumanDna": 20,
+    "ratio": 0.5
+}
+
+```
+
+
 
