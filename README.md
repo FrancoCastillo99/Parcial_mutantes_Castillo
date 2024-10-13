@@ -12,8 +12,7 @@ Esta API permite detectar secuencias de ADN mutante a través de una serie de se
 
 #### **Ejemplo de Solicitud POST**
 
-**Headers**:
-**Cuerpo de la Solicitud**:
+**body**:
 json
 {
     "dna": [
